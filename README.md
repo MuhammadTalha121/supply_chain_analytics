@@ -10,7 +10,7 @@ End-to-end analysis on real supply chain data (100 SKUs, 24 variables) covering 
 - Started with EDA to understand data structure and spot patterns
 - Identified key cost drivers through correlation and feature analysis
 - Built and compared 7 ML models (Linear Regression, Ridge, Random Forest, Gradient Boosting, XGBoost, SVR, MLP) with cross-validation
-- Applied GridSearchCV hyperparameter tuning on top performers
+- Applied GridSearchCV hyperparameter tuning on top performers with Extra Gradients Moves
 
 ## Results
 | Model | Best CV R² |
