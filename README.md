@@ -1,4 +1,4 @@
-# Supply Chain Analytics & Cost Prediction
+# Supply Chain Analytics & Cost Predictions
 
 ## Problem
 Supply chain operations generate massive data across inventory, logistics, manufacturing, and sales — yet most businesses can't predict costs or identify inefficiencies until it's too late. This project answers: **what drives supply chain costs, and can we predict them?**
