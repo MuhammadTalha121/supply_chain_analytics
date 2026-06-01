@@ -1,0 +1,20 @@
+paths:
+  raw_data:       "data/raw"
+  processed_data: "data/processed"
+  models:         "models"
+
+pipeline:
+  chunk_size:  500000     # rows per parquet chunk
+  test_nrows:  50000      # rows loaded in test_mode
+
+model:
+  random_state: 42
+  target_col:   "sales"
+  horizon_days: 28
+  cv_folds:     5
+
+evaluation:
+  wmape_threshold:    0.15   # must beat this
+  overfit_tolerance:  0.05   # max allowed gap between train and CV WMAPE
+  bootstrap_iters:    1000
+  ljung_box_lags:     10
